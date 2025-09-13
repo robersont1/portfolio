@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tanner Roberson — Portfolio</title>
+  <meta name="description" content="Portfolio site for Tanner Roberson, Computer Engineering student at UNT." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg: #0f1724;
+      --card: #0b1220;
+      --muted: #94a3b8;
+      --text: #e6eef8;
+      --accent: #7c3aed;
+      --glass: rgba(255,255,255,0.03);
+    }
+    [data-theme="light"]{
+      --bg: #f7fafc;
+      --card: #ffffff;
+      --muted: #475569;
+      --text: #0b1220;
+      --accent: #6b46c1;
+      --glass: rgba(11,18,32,0.03);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:"Inter",sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+    .container{max-width:1000px;margin:0 auto;padding:20px}
+    header,footer{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+    nav a{margin:0 10px;text-decoration:none;color:var(--muted);font-weight:600}
+    nav a:hover{color:var(--text)}
+    h1,h2,h3{margin-top:0}
+    section{margin:40px 0}
+    .card{background:var(--card);padding:20px;border-radius:12px;margin:10px 0}
+    .btn{background:var(--accent);color:#fff;padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:600}
+    ul{padding-left:20px}
+    .small{color:var(--muted);font-size:0.9rem}
+  </style>
+</head>
+<body data-theme="dark">
+  <div class="container">
+    <header>
+      <h1>Tanner Roberson</h1>
+      <nav>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+      </nav>
+    </header>
+
+    <section id="intro">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>Master’s student in Computer Engineering at the University of North Texas (expected graduation May 2027). Passionate about embedded systems, IoT devices, and building efficient hardware/software solutions. Strong academic record (B.S. GPA: 3.97) with internship experience in Identity Access Management at Textron.</p>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>University of North Texas</h3>
+        <p><strong>Master of Science (M.S.) Computer Engineering</strong> | Aug 2025 – Present | Denton, TX</p>
+        <p class="small">Expected Graduation: May 2027 · ABET Accredited</p>
+      </div>
+      <div class="card">
+        <h3>University of North Texas</h3>
+        <p><strong>Bachelor of Science (B.S.) Computer Engineering</strong>, Minor in Math | Aug 2020 – May 2024 | Denton, TX</p>
+        <p class="small">GPA: 3.97 · ABET Accredited</p>
+        <p>Awards: 7× President’s List, Dean’s List (Spring 2023)</p>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="card">
+        <h3>Textron Corporate — Identity Access Management Intern</h3>
+        <p class="small">May 2023 – Aug 2023 | Hurst, TX</p>
+        <ul>
+          <li>Automated business processes via custom workflows to streamline productivity.</li>
+          <li>Collaborated on integrating 50+ applications/services into the ServiceNow CMDB.</li>
+          <li>Participated in strategy meetings with upper management.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Texas Roadhouse — Server</h3>
+        <p class="small">Apr 2022 – Aug 2022, Dec 2024 – Jul 2025 | Flower Mound, TX</p>
+      </div>
+      <div class="card">
+        <h3>Papa John’s — Delivery Driver</h3>
+        <p class="small">Nov 2019 – Apr 2022 | Flower Mound, TX</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Faceplate Integrated CO, Smoke & Toxic Gas Detector</h3>
+        <p class="small">Aug 2023 – May 2024 | Senior Design Project</p>
+        <ul>
+          <li>Designed a smart faceplate detector with CO, smoke, and toxic gas sensors.</li>
+          <li>Developed ESP-32 system with WiFi/cellular connectivity using Arduino and AWS MQTT.</li>
+          <li>Implemented real-time threshold alerts with actuator systems and notifications.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Digital Alarm Clock</h3>
+        <p class="small">Apr 2023 | Individual Project</p>
+        <ul>
+          <li>Arduino + LCD system with adjustable time and alarm functionality.</li>
+          <li>Implemented in C++ to track and trigger alarms.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>ServiceNow Form Implementation</h3>
+        <p class="small">Jul 2023 | Internship Project</p>
+        <ul>
+          <li>Created dynamic forms in ServiceNow using REST API and JavaScript.</li>
+          <li>Improved user experience by auto-populating form data.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="card">
+        <p><strong>Programming:</strong> C++, C, JavaScript, Python, VHDL, x86 Assembly, OOP</p>
+        <p><strong>Applications:</strong> MATLAB, ServiceNow, Identity Panel Suite, Git, Vivado, Microsoft Excel</p>
+        <p><strong>Protocols:</strong> I2C, UART, SPI, PWM, CAN, GPIO</p>
+        <p><strong>Other:</strong> AWS, Arduino, Xilinx FPGA, Linux, Windows, MacOS</p>
+        <p><strong>Soft Skills:</strong> Communication, Teamwork, Problem Solving, Time Management, Adaptability, Organization</p>
+      </div>
+    </section>
+
+    <footer>
+      <p class="small">© <span id="year"></span> Tanner Roberson — Built with ❤️ · Hosted on GitHub Pages</p>
+      <a href="mailto:you@example.com" class="btn">Contact Me</a>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
