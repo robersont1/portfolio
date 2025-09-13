@@ -1,6 +1,11 @@
-**About**
+**About**  
 My name is Tanner Roberson. I am in the first year of my Master's degree in computer engineering at the University of North Texas. I graduated summa cum laude with my Bachelor's degree in Computer Engineering from the University of North Texas in 2024.
 Over the course of my college education, I have developed a strong interest in chip design and computer architecture. As such, I am seeking an internship for the summer of 2026 in computer architecture or digital integrated circuit design.
+
+**Education**  
+Bachelor of Science in Computer Engineering  
+University of North Texas | Denton, Texas  
+GPA: 4.0
 
 **Relevant Coursework**
 * Digital CMOS VLSI Design
@@ -14,3 +19,13 @@ Over the course of my college education, I have developed a strong interest in c
 * Assembly Language and Computer Organization
 * Circuit Analysis
 * Digital Logic Design
+
+**Technical Skills**
+* Hardware Design: VHDL, Vivado, Xilinx FPGA, Matlab
+* Programming + Scripting: C++, C, Python, JavaScript, x86 Assembly Language
+* Real Time Systems: Arduino, AWS, ESP32
+* Computer Graphics: CUDA, Parallel Computing, Ray Tracing
+* Communication Protocols: UART, SPI, I2C, PWM, CAN, GPIO
+* Software/Platforms: Git, Microsoft Office, Linux, Windows, MacOS
+* Soft Skills: Communication, Teamwork, Problem Solving, Adaptibility, Time Management
+
