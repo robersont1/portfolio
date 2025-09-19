@@ -35,6 +35,25 @@
     .btn{background:var(--accent);color:#fff;padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:600}
     ul{padding-left:20px}
     .small{color:var(--muted);font-size:0.9rem}
+    details {
+      margin: 1em 0;
+    }
+     summary {
+      font-size: 1.1em;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .pdf-container {
+      width: 100%;
+      max-width: 900px; /* optional: prevents it from being too wide on desktops */
+      margin: 0 auto;
+    }
+    .pdf-container embed {
+      width: 100%;
+      height: 80vh; /* take 80% of the viewport height */
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
   </style>
 </head>
 <body data-theme="dark">
@@ -94,11 +113,16 @@
           <li>Developed ESP-32 system with WiFi/cellular connectivity using Arduino and AWS MQTT.</li>
           <li>Implemented real-time threshold alerts with actuator systems and notifications.</li>
         </ul>
-        <embed src="senior-design-presentation.pdf" type="application/pdf" width="900" height="600">
-        <p>
-          If the PDF doesn’t load, 
-          <a href="senior-design-presentation.pdf" target="_blank">click here to open it</a>.
-        </p>
+        <details>
+          <summary>View More Information</summary>
+          <div class="pdf-container">
+            <embed src="senior-design-presentation.pdf" type="application/pdf" width="900" height="600">
+          </div>
+          <p>
+            If the PDF doesn’t load, 
+            <a href="senior-design-presentation.pdf" target="_blank">click here to open it</a>.
+          </p>
+        </details>
       </div>
 
       <div class="card">
